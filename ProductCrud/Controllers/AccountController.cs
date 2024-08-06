@@ -104,9 +104,9 @@ namespace ProductCrud.Controllers
                     // Create claims for the user
                     var claims = new[]
             {
-                new Claim(ClaimTypes.Name, user.UserId.ToString()),
-                new Claim(ClaimTypes.Email, user.EmailAddress),
-                new Claim(ClaimTypes.Role, user.UserRole)
+                new Claim("Id", user.UserId.ToString()),
+                new Claim("Email", user.EmailAddress),
+                new Claim("Role", user.UserRole)
             };
 
                     // Return the claimss
@@ -116,7 +116,7 @@ namespace ProductCrud.Controllers
 
                 // Return unauthorized if user not found
                 return Unauthorized("Invalid email or password.");
-            }
+            } 
             catch (Exception ex)
             {
                

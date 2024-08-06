@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import useStore from '../Store/Store'
+import { useNavigate } from 'react-router-dom'
+import Cookies from 'js-cookie'
 
 const Login = () => {
     const [password,setPassword] = useState('')
 const [email,setEmail] = useState('')
+const navigateTo = useNavigate('');
 
 const loginUser = useStore((state)=>state.loginUser)
 const handleSubmit = async (e) =>{
@@ -15,7 +18,17 @@ const handleSubmit = async (e) =>{
 
     }
 
-    await loginUser(userData)
+  const result =   await loginUser(userData)
+
+
+  if(result)
+  {
+    console.log("loginsuccess")
+
+    console.log(result)
+    Cookies.set("Token", result)
+    navigateTo('/Home')
+  }
 }
 
   return (

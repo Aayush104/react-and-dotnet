@@ -49,6 +49,7 @@ public partial class ProductCrudContext : DbContext
                 .HasColumnName("PID");
             entity.Property(e => e.Cid).HasColumnName("CId");
             entity.Property(e => e.Pdescription).HasColumnName("PDescription");
+            entity.Property(e => e.Pimage).HasColumnName("PImage");
             entity.Property(e => e.Pname)
                 .HasMaxLength(50)
                 .HasColumnName("PName");

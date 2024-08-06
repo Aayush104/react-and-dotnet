@@ -4,6 +4,7 @@ import {create} from "zustand";
 
 
 
+
 const useStore = create((set) => ({
     user: null,
     registerUser: async (userData) => {
@@ -27,6 +28,8 @@ const useStore = create((set) => ({
                 console.log(response)
                 if (response.status !== 200) throw new Error("Login failed");
 
+                return response.data
+
 
     },
 
@@ -37,13 +40,66 @@ const useStore = create((set) => ({
             const response = await axios.post("https://localhost:7252/api/Account/ForgetPassword",forgetPassword)
 
             if(response.status !==200) throw new Error("User Donot exist");
-console.log(response)
+
         return response.data    
         
         } catch (error) {
             console.error("Error:", error.response.data);
         }
 
+        
+
+    },
+    addCategory : async(addCategory)=>{
+        try {
+            
+            const response = await axios.post("https://localhost:7252/api/Product/AddCategory",addCategory)
+           return response.data
+        } catch (error) {
+            console.error("Error", error.response.data);
+        }
+    },
+
+    getCategory : async()=>
+    {
+        try {
+            
+            const response = await axios.get("https://localhost:7252/api/Product/GetCategories")
+            return response.data
+        } catch (error) {
+            console.error("Error", error.response.data);
+        }
+        
+    },
+   
+     addProduct : async (productData, token) => {
+        try {
+            const response = await axios.post(
+                "https://localhost:7252/api/Product/AddProducts",
+                productData,
+                {
+                    headers: {
+                        "Authorization": `Bearer ${token}`,
+                        "Content-Type": "multipart/form-data" 
+                    }
+                }
+            );
+    
+            return response.data;
+        } catch (error) {
+            console.error("Error adding product:", error.response ? error.response.data : error.message);
+            throw error; 
+        }
+    },
+    getProducts : async ()=>{
+        try {
+            const response = await axios.get("https://localhost:7252/api/Product/GetProducts")
+
+            return response.data
+        } catch (error) {
+            console.error("Error adding product:", error.response ? error.response.data : error.message);
+            throw error; 
+        }
     }
 
 }));

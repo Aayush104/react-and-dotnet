@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\ProductCrud\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\modeledit\\loginedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\modeledit\\loginedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\modeledit\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\modeledit\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\modeledit\\productedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\modeledit\\productedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\modeledit\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,42 +31,50 @@
       "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\modeledit\\registeredit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\modeledit\\categoryedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\modeledit\\categoryedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\modeledit\\forgetpasswordedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\modeledit\\forgetpasswordedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_TCSMEVA/ProductCrud/sa/SqlTable/dbo.Users.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\datasecurity\\datasecurityprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\datasecurity\\datasecurityprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\models\\productcrudcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\models\\productcrudcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\AppData\\Local\\Temp\\.vsdbgsrc\\f9f7bab7e69597a5d46ad267aa136a526b9a42e6533dbc251fcfa74bc642cf9a\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\productcrud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\productcrud.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\models\\productcrudcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\models\\productcrudcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_TCSMEVA/ProductCrud/sa/SqlTable/dbo.Category.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\modeledit\\loginedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\modeledit\\loginedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\modeledit\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\modeledit\\changepassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\datasecurity\\datasecurityprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\datasecurity\\datasecurityprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acer\\AppData\\Local\\Temp\\.vsdbgsrc\\f9f7bab7e69597a5d46ad267aa136a526b9a42e6533dbc251fcfa74bc642cf9a\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -68,73 +84,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ChangePassword.cs",
-              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\ChangePassword.cs",
-              "RelativeDocumentMoniker": "ProductCrud\\ModelEdit\\ChangePassword.cs",
-              "ToolTip": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\ChangePassword.cs",
-              "RelativeToolTip": "ProductCrud\\ModelEdit\\ChangePassword.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductCrud\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAowKAAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T09:25:07.61Z",
+              "WhenOpened": "2024-08-05T09:31:11.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "ProductCrud\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "ProductCrud\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAswIIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T05:01:15.568Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DataSecurityProvider.cs",
-              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\DataSecurity\\DataSecurityProvider.cs",
-              "RelativeDocumentMoniker": "ProductCrud\\DataSecurity\\DataSecurityProvider.cs",
-              "ToolTip": "D:\\ProductCrud\\ProductCrud\\DataSecurity\\DataSecurityProvider.cs",
-              "RelativeToolTip": "ProductCrud\\DataSecurity\\DataSecurityProvider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T07:04:47.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "dbo.Users [Data]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_TCSMEVA/ProductCrud/sa/SqlTable/dbo.Users.sql",
-              "ToolTip": "dbo.Users [Data]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-07-24T07:58:33.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Token.cs",
-              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\Token.cs",
-              "RelativeDocumentMoniker": "ProductCrud\\ModelEdit\\Token.cs",
-              "ToolTip": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\Token.cs",
-              "RelativeToolTip": "ProductCrud\\ModelEdit\\Token.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T07:56:16.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "ForgetPasswordEdit.cs",
               "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\ForgetPasswordEdit.cs",
               "RelativeDocumentMoniker": "ProductCrud\\ModelEdit\\ForgetPasswordEdit.cs",
@@ -142,25 +109,83 @@
               "RelativeToolTip": "ProductCrud\\ModelEdit\\ForgetPasswordEdit.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T06:29:12.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T06:29:12.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginEdit.cs",
-              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\LoginEdit.cs",
-              "RelativeDocumentMoniker": "ProductCrud\\ModelEdit\\LoginEdit.cs",
-              "ToolTip": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\LoginEdit.cs",
-              "RelativeToolTip": "ProductCrud\\ModelEdit\\LoginEdit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "DocumentIndex": 7,
+              "Title": "CategoryEdit.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\CategoryEdit.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\ModelEdit\\CategoryEdit.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\CategoryEdit.cs",
+              "RelativeToolTip": "ProductCrud\\ModelEdit\\CategoryEdit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T06:30:26.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-05T09:35:50.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ProductCrud\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAH8AAAAAAAAAAAAkwPQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:01:15.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Token.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\Token.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\ModelEdit\\Token.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\Token.cs",
+              "RelativeToolTip": "ProductCrud\\ModelEdit\\Token.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T07:56:16.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Program.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\Program.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Program.cs",
+              "RelativeToolTip": "ProductCrud\\Program.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:14:22.516Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\Models\\Product.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Models\\Product.cs",
+              "RelativeToolTip": "ProductCrud\\Models\\Product.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:18:06.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductEdit.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\ProductEdit.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\ModelEdit\\ProductEdit.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\ProductEdit.cs",
+              "RelativeToolTip": "ProductCrud\\ModelEdit\\ProductEdit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T15:11:20.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "RegisterEdit.cs",
               "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\RegisterEdit.cs",
               "RelativeDocumentMoniker": "ProductCrud\\ModelEdit\\RegisterEdit.cs",
@@ -168,38 +193,11 @@
               "RelativeToolTip": "ProductCrud\\ModelEdit\\RegisterEdit.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T06:45:03.036Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-24T06:45:03.036Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Program.cs",
-              "RelativeDocumentMoniker": "ProductCrud\\Program.cs",
-              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Program.cs",
-              "RelativeToolTip": "ProductCrud\\Program.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAB8AAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T05:14:22.516Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Models\\User.cs",
-              "RelativeDocumentMoniker": "ProductCrud\\Models\\User.cs",
-              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Models\\User.cs",
-              "RelativeToolTip": "ProductCrud\\Models\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T05:00:55.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\appsettings.json",
               "RelativeDocumentMoniker": "ProductCrud\\appsettings.json",
@@ -207,48 +205,23 @@
               "RelativeToolTip": "ProductCrud\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-23T13:55:06.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-23T13:55:06.017Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "ProductCrudContext.cs",
-              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Models\\ProductCrudContext.cs",
-              "RelativeDocumentMoniker": "ProductCrud\\Models\\ProductCrudContext.cs",
-              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Models\\ProductCrudContext.cs",
-              "RelativeToolTip": "ProductCrud\\Models\\ProductCrudContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\Models\\Category.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Models\\Category.cs",
+              "RelativeToolTip": "ProductCrud\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-23T14:26:56.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T15:01:25.391Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\acer\\AppData\\Local\\Temp\\.vsdbgsrc\\f9f7bab7e69597a5d46ad267aa136a526b9a42e6533dbc251fcfa74bc642cf9a\\AccountController.cs",
-              "ToolTip": "C:\\Users\\acer\\AppData\\Local\\Temp\\.vsdbgsrc\\f9f7bab7e69597a5d46ad267aa136a526b9a42e6533dbc251fcfa74bc642cf9a\\AccountController.cs [Read Only]",
-              "ViewState": "AQIAAAgAAAAAAAAAAADgvyAAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-31T10:32:44.447Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "ProductCrud\\Models\\Product.cs",
-              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Models\\Product.cs",
-              "RelativeToolTip": "ProductCrud\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T05:18:06.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 11,
               "Title": "ProductCrud.csproj",
               "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\ProductCrud.csproj",
               "RelativeDocumentMoniker": "ProductCrud\\ProductCrud.csproj",
@@ -257,6 +230,85 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-07-24T06:29:54.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductCrudContext.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Models\\ProductCrudContext.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\Models\\ProductCrudContext.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Models\\ProductCrudContext.cs",
+              "RelativeToolTip": "ProductCrud\\Models\\ProductCrudContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T14:26:56.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\Models\\User.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\Models\\User.cs",
+              "RelativeToolTip": "ProductCrud\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T05:00:55.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginEdit.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\LoginEdit.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\ModelEdit\\LoginEdit.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\LoginEdit.cs",
+              "RelativeToolTip": "ProductCrud\\ModelEdit\\LoginEdit.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T06:30:26.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "dbo.Category [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_TCSMEVA/ProductCrud/sa/SqlTable/dbo.Category.sql",
+              "ToolTip": "dbo.Category [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-05T10:00:52.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DataSecurityProvider.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\DataSecurity\\DataSecurityProvider.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\DataSecurity\\DataSecurityProvider.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\DataSecurity\\DataSecurityProvider.cs",
+              "RelativeToolTip": "ProductCrud\\DataSecurity\\DataSecurityProvider.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-24T07:04:47.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChangePassword.cs",
+              "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\ChangePassword.cs",
+              "RelativeDocumentMoniker": "ProductCrud\\ModelEdit\\ChangePassword.cs",
+              "ToolTip": "D:\\ProductCrud\\ProductCrud\\ModelEdit\\ChangePassword.cs",
+              "RelativeToolTip": "ProductCrud\\ModelEdit\\ChangePassword.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T09:25:07.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\AppData\\Local\\Temp\\.vsdbgsrc\\f9f7bab7e69597a5d46ad267aa136a526b9a42e6533dbc251fcfa74bc642cf9a\\AccountController.cs",
+              "ToolTip": "C:\\Users\\acer\\AppData\\Local\\Temp\\.vsdbgsrc\\f9f7bab7e69597a5d46ad267aa136a526b9a42e6533dbc251fcfa74bc642cf9a\\AccountController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAADgvyAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T10:32:44.447Z"
             }
           ]
         }

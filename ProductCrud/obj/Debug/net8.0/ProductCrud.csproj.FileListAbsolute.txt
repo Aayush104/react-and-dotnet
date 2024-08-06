@@ -142,3 +142,5 @@ D:\ProductCrud\ProductCrud\obj\Debug\net8.0\refint\ProductCrud.dll
 D:\ProductCrud\ProductCrud\obj\Debug\net8.0\ProductCrud.pdb
 D:\ProductCrud\ProductCrud\obj\Debug\net8.0\ProductCrud.genruntimeconfig.cache
 D:\ProductCrud\ProductCrud\obj\Debug\net8.0\ref\ProductCrud.dll
+D:\ProductCrud\ProductCrud\obj\Debug\net8.0\ProductCrud.sourcelink.json
+D:\ProductCrud\ProductCrud\bin\Debug\net8.0\ProductCrud.staticwebassets.runtime.json

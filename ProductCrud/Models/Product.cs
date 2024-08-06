@@ -17,6 +17,8 @@ public partial class Product
 
     public int? Cid { get; set; }
 
+    public string? Pimage { get; set; }
+
     public virtual Category? CidNavigation { get; set; }
 
     public virtual User? User { get; set; }
