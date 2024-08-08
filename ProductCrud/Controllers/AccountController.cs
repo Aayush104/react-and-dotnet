@@ -96,22 +96,25 @@ namespace ProductCrud.Controllers
                     .Where(x => x.EmailAddress.ToUpper() == edit.EmailAddress.ToUpper())
                     .ToListAsync();
 
-                // Find the user and check the password in-memory
+                
                 var user = users.FirstOrDefault(x => _protector.Unprotect(x.UserPassword!) == edit.UserPassword);
+
 
                 if (user != null)
                 {
+
                     // Create claims for the user
                     var claims = new[]
             {
                 new Claim("Id", user.UserId.ToString()),
+                new Claim("Name", user.UserName.ToUpper()), 
                 new Claim("Email", user.EmailAddress),
                 new Claim("Role", user.UserRole)
             };
 
                     // Return the claimss
                     var token = GenerateJsonWebToken(claims);
-                    return Ok(token);
+                    return Ok(new {token});
                 }
 
                 // Return unauthorized if user not found

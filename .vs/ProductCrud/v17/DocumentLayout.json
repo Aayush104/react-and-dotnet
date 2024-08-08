@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\ProductCrud\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|solutionrelative:productcrud\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6890B6E1-E634-453D-916A-E564E95F467B}|ProductCrud\\ProductCrud.csproj|d:\\productcrud\\productcrud\\modeledit\\productedit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -84,17 +84,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "ProductCrud\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\ProductCrud\\ProductCrud\\Controllers\\ProductController.cs",
               "RelativeToolTip": "ProductCrud\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAowKAAAAAXAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA0wI4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-05T09:31:11.157Z",
               "EditorCaption": ""
@@ -125,15 +125,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "ProductCrud\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\ProductCrud\\ProductCrud\\Controllers\\AccountController.cs",
               "RelativeToolTip": "ProductCrud\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAkwPQAAAAUAAAA",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAkwFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-24T05:01:15.568Z"
+              "WhenOpened": "2024-07-24T05:01:15.568Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -149,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\ProductCrud\\ProductCrud\\Program.cs",
               "RelativeDocumentMoniker": "ProductCrud\\Program.cs",

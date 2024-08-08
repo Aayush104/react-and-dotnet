@@ -1,28 +1,37 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import Cookies from 'js-cookie';
+
 import useStore from '../Store/Store';
 import './Home.css';
-import Category from '../Category/Category'; 
+import Category from '../Category/Category';
 
 const Home = () => {
   const [auth, setAuth] = useState(false);
-  const getProducts = useStore((store) => store.getProducts);
   const [data, setData] = useState([]);
   const [category, setCategory] = useState('');
   const [select, setSelect] = useState([]);
   const [state, setState] = useState(true);
+  const [userName, setUserName] = useState('');
 
+  const getProducts = useStore((store) => store.getProducts);
   const getCategory = useStore((store) => store.getCategory);
+  const user = useStore((store) => store.user);
+
 
   useEffect(() => {
-    const token = Cookies.get('Token');
-    if (token) {
+    if (user) {
+      setUserName(user.decodedToken.Name); 
+    }
+  }, [user]);
+
+  useEffect(() => {
+
+    if (user && user.decodedToken.Role) {
       try {
-        const decodeToken = JSON.parse(atob(token.split('.')[1]));
-        const userRole = decodeToken.Role;
-        if (userRole === 'Admin') {
+     
+        if (user.decodedToken.Role === 'Admin') {
           setAuth(true);
+      
         }
 
         const fetchData = async () => {
@@ -52,12 +61,14 @@ const Home = () => {
   return (
     <div className="container">
       <div>
+        {userName && (
+          <p>Welcome {userName}</p>
+        )}
         {auth && (
           <div className="auth-buttons">
             <NavLink to="/AddProduct">
               <button>Add Products</button>
             </NavLink>
-
             <NavLink to="/AddCategory">
               <button>Add Category</button>
             </NavLink>
@@ -65,7 +76,7 @@ const Home = () => {
         )}
       </div>
       <div className="form-group">
-        <label htmlFor="category" className="form-label">select category</label>
+        <label htmlFor="category" className="form-label">Select Category</label>
         <select
           id="category"
           className="form-input"

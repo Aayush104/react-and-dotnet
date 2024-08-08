@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import useStore from '../Store/Store';
-import Cookies from 'js-cookie';
 
 const AddProducts = () => {
     const [pName, setPName] = useState('');
@@ -12,7 +11,7 @@ const AddProducts = () => {
     
     const getCategory = useStore((store) => store.getCategory);
     const addProduct = useStore((store) => store.addProduct);
-    const token = Cookies.get('Token');
+    // const token = Cookies.get('Token');
 
     useEffect(() => {
         const fetchData = async () => {
@@ -38,7 +37,7 @@ const AddProducts = () => {
         }
 
         try {
-            const result = await addProduct(formData, token);
+            const result = await addProduct(formData);
             if (result) {
                 console.log(result);
             }
