@@ -1,8 +1,24 @@
 {
   "Files": [
     {
+      "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\01895724-b01b-4b45-9af1-71ffd309cd22.png",
+      "PackagePath": "staticwebassets\\ProductImage\\01895724-b01b-4b45-9af1-71ffd309cd22.png"
+    },
+    {
       "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\0acabb18-05d8-49ea-bed4-14584985abc1.png",
       "PackagePath": "staticwebassets\\ProductImage\\0acabb18-05d8-49ea-bed4-14584985abc1.png"
+    },
+    {
+      "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\0c33a5d7-f4e2-4c92-adf3-2382d6381069.png",
+      "PackagePath": "staticwebassets\\ProductImage\\0c33a5d7-f4e2-4c92-adf3-2382d6381069.png"
+    },
+    {
+      "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\19cf5d6d-18d7-43e4-a5f5-530232ac267d.png",
+      "PackagePath": "staticwebassets\\ProductImage\\19cf5d6d-18d7-43e4-a5f5-530232ac267d.png"
+    },
+    {
+      "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\42dd2dec-d543-4fab-87f3-cda50d988de3.png",
+      "PackagePath": "staticwebassets\\ProductImage\\42dd2dec-d543-4fab-87f3-cda50d988de3.png"
     },
     {
       "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\89eb67d9-ad2e-4b12-98a4-14be9936883d.png",
@@ -17,16 +33,36 @@
       "PackagePath": "staticwebassets\\ProductImage\\a2953e90-e73e-49f9-b943-8a1b5efa7f85.png"
     },
     {
+      "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\b1299c94-6a23-46db-9276-cc20c9841a6e.png",
+      "PackagePath": "staticwebassets\\ProductImage\\b1299c94-6a23-46db-9276-cc20c9841a6e.png"
+    },
+    {
+      "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\b164f2c4-af0f-4cee-9331-a15ee50dfbde.png",
+      "PackagePath": "staticwebassets\\ProductImage\\b164f2c4-af0f-4cee-9331-a15ee50dfbde.png"
+    },
+    {
       "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\b6cb52ff-d0d5-41e2-8d29-1a50e85bd4f7.png",
       "PackagePath": "staticwebassets\\ProductImage\\b6cb52ff-d0d5-41e2-8d29-1a50e85bd4f7.png"
+    },
+    {
+      "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\bf264ea3-49c2-43ab-9f4f-20dd2825da75.jpg",
+      "PackagePath": "staticwebassets\\ProductImage\\bf264ea3-49c2-43ab-9f4f-20dd2825da75.jpg"
     },
     {
       "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\c9e33d14-a0ed-4c5b-aad5-a1049814e0ec.png",
       "PackagePath": "staticwebassets\\ProductImage\\c9e33d14-a0ed-4c5b-aad5-a1049814e0ec.png"
     },
     {
+      "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\d83603ae-93c1-4cc1-8d03-6c7b5284fc52.JPG",
+      "PackagePath": "staticwebassets\\ProductImage\\d83603ae-93c1-4cc1-8d03-6c7b5284fc52.JPG"
+    },
+    {
       "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\f0902c47-14e8-43dd-922f-a3197714023b.png",
       "PackagePath": "staticwebassets\\ProductImage\\f0902c47-14e8-43dd-922f-a3197714023b.png"
+    },
+    {
+      "Id": "D:\\ProductCrud\\ProductCrud\\wwwroot\\ProductImage\\fae30513-f59a-4853-82c0-eab06f8ccdd5.png",
+      "PackagePath": "staticwebassets\\ProductImage\\fae30513-f59a-4853-82c0-eab06f8ccdd5.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProductCrud.Microsoft.AspNetCore.StaticWebAssets.props",

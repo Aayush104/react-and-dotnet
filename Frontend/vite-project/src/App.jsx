@@ -8,6 +8,7 @@ import Home from './Components/Home/Home'
 import AddProducts from './Components/AddProducts/AddProducts'
 import AddCategory from './Components/AddCatgeory/AddCategory'
 import Category from './Components/Category/Category'
+import Chat from './Components/Chat/Chat'
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
       <Route path='/AddCategory' element= {<AddCategory/>} />
       <Route path='/VerifyToken/:otp/:Id' element={<VerifyToken />} />
       <Route path='/Category/:id' element={<Category />} />
+      <Route path='/Chat' element={<Chat />} />
      
       </Routes>
       

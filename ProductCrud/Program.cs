@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using ProductCrud.DataSecurity;
+using ProductCrud.Hubsss;
 using ProductCrud.Models;
 using System.Text;
 
@@ -10,15 +11,17 @@ var builder = WebApplication.CreateBuilder(args);
 // Configure CORS policy
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAll",
-        builder => builder
-        .AllowAnyOrigin()
+    options.AddPolicy("AllowSpecificOrigin",
+        corsBuilder => corsBuilder
+        .WithOrigins("http://localhost:5173") // Add your frontend URL here
         .AllowAnyMethod()
-        .AllowAnyHeader());
+        .AllowAnyHeader()
+        .AllowCredentials()); // This is important for SignalR
 });
 
 // Add services to the container
 builder.Services.AddControllers();
+builder.Services.AddSignalR();  // Add SignalR services
 
 // Configure Data Protection
 builder.Services.AddDataProtection();
@@ -29,7 +32,7 @@ builder.Services.AddSwaggerGen();
 
 // Database context configuration
 builder.Services.AddDbContext<ProductCrudContext>(options =>
-    options.UseSqlServer(builder.Configuration["Conn"]));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Authentication configuration
 builder.Services.AddAuthentication(options =>
@@ -38,6 +41,7 @@ builder.Services.AddAuthentication(options =>
     options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
     options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
 })
+   
 .AddJwtBearer(options =>
 {
     options.SaveToken = true;
@@ -55,10 +59,14 @@ builder.Services.AddAuthentication(options =>
 
 // Register custom services
 builder.Services.AddSingleton<DataSecurityProvider>();
+ builder.Services.AddSignalR(options =>
+    {
+        options.EnableDetailedErrors = true;
+    });
+
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -66,10 +74,14 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("AllowAll");
+app.UseCors("AllowSpecificOrigin");
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseDefaultFiles();
 app.UseStaticFiles();
+
+// Map SignalR hubs
 app.MapControllers();
+app.MapHub<ChatHub>("/hub");  // Ensure that this path matches the client configuration
 
 app.Run();

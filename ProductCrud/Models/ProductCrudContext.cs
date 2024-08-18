@@ -15,7 +15,15 @@ public partial class ProductCrudContext : DbContext
     {
     }
 
+    public virtual DbSet<Attachment> Attachments { get; set; }
+
     public virtual DbSet<Category> Categories { get; set; }
+
+    public virtual DbSet<Conversation> Conversations { get; set; }
+
+    public virtual DbSet<Message> Messages { get; set; }
+
+    public virtual DbSet<MessageStatus> MessageStatuses { get; set; }
 
     public virtual DbSet<Product> Products { get; set; }
 
@@ -26,6 +34,23 @@ public partial class ProductCrudContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<Attachment>(entity =>
+        {
+            entity.HasKey(e => e.AttachmentId).HasName("PK__Attachme__442C64DEFBA9D353");
+
+            entity.Property(e => e.AttachmentId).HasColumnName("AttachmentID");
+            entity.Property(e => e.FileType).HasMaxLength(50);
+            entity.Property(e => e.MessageId).HasColumnName("MessageID");
+            entity.Property(e => e.UploadedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+
+            entity.HasOne(d => d.Message).WithMany(p => p.Attachments)
+                .HasForeignKey(d => d.MessageId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__Attachmen__Messa__5165187F");
+        });
+
         modelBuilder.Entity<Category>(entity =>
         {
             entity.HasKey(e => e.Cid).HasName("PK__Category__C1F8DC39826EF26F");
@@ -38,6 +63,64 @@ public partial class ProductCrudContext : DbContext
             entity.Property(e => e.Cname)
                 .HasMaxLength(40)
                 .HasColumnName("CName");
+        });
+
+        modelBuilder.Entity<Conversation>(entity =>
+        {
+            entity.HasKey(e => e.ConversationId).HasName("PK__Conversa__C050D877B8B244AE");
+
+            entity.ToTable("Conversation");
+
+            entity.Property(e => e.ConversationId).ValueGeneratedNever();
+            entity.Property(e => e.CreatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+        });
+
+        modelBuilder.Entity<Message>(entity =>
+        {
+            entity.HasKey(e => e.MessageId).HasName("PK__Message__C87C0C9C335404D5");
+
+            entity.ToTable("Message");
+
+            entity.Property(e => e.MessageId).ValueGeneratedNever();
+            entity.Property(e => e.SentAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+
+            entity.HasOne(d => d.Conversation).WithMany(p => p.Messages)
+                .HasForeignKey(d => d.ConversationId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__Message__Convers__4CA06362");
+
+            entity.HasOne(d => d.Sender).WithMany(p => p.Messages)
+                .HasForeignKey(d => d.SenderId)
+                .HasConstraintName("FK__Message__SenderI__4D94879B");
+        });
+
+        modelBuilder.Entity<MessageStatus>(entity =>
+        {
+            entity.HasKey(e => e.StatusId).HasName("PK__MessageS__C8EE204365D8B171");
+
+            entity.ToTable("MessageStatus");
+
+            entity.Property(e => e.StatusId).HasColumnName("StatusID");
+            entity.Property(e => e.MessageId).HasColumnName("MessageID");
+            entity.Property(e => e.Status).HasMaxLength(50);
+            entity.Property(e => e.UpdatedAt)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.UserId).HasColumnName("UserID");
+
+            entity.HasOne(d => d.Message).WithMany(p => p.MessageStatuses)
+                .HasForeignKey(d => d.MessageId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__MessageSt__Messa__5535A963");
+
+            entity.HasOne(d => d.User).WithMany(p => p.MessageStatuses)
+                .HasForeignKey(d => d.UserId)
+                .OnDelete(DeleteBehavior.Cascade)
+                .HasConstraintName("FK__MessageSt__UserI__5629CD9C");
         });
 
         modelBuilder.Entity<Product>(entity =>

@@ -21,5 +21,9 @@ public partial class User
 
     public DateTime? ExpieryDate { get; set; }
 
+    public virtual ICollection<MessageStatus> MessageStatuses { get; set; } = new List<MessageStatus>();
+
+    public virtual ICollection<Message> Messages { get; set; } = new List<Message>();
+
     public virtual ICollection<Product> Products { get; set; } = new List<Product>();
 }

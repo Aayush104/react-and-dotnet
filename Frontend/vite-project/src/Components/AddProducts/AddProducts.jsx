@@ -25,7 +25,7 @@ const AddProducts = () => {
     }, [getCategory]);
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
+        e.preventDefault();   
 
         const formData = new FormData();
         formData.append('Pname', pName);

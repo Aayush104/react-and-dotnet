@@ -1,5 +1,6 @@
 import axios from "axios";
 import { create } from "zustand";
+import Cookies from "js-cookie";
 
 const useStore = create((set) => ({
     user: null,
@@ -65,9 +66,12 @@ const useStore = create((set) => ({
     },
 
     getCategory: async () => {
+       
         try {
             const response = await axios.get("https://localhost:7252/api/Product/GetCategories");
+       
             return response.data;
+            
         } catch (error) {
             console.error("Error", error.response?.data);
         }
@@ -77,7 +81,7 @@ const useStore = create((set) => ({
         try {
 
             const{userToken} = useStore.getState()
-            console.log("user token", userToken)
+
             const response = await axios.post(
                 "https://localhost:7252/api/Product/AddProducts",
                 productData,
@@ -97,14 +101,40 @@ const useStore = create((set) => ({
     },
 
     getProducts: async () => {
+      
         try {
+            
             const response = await axios.get("https://localhost:7252/api/Product/GetProducts");
             return response.data;
         } catch (error) {
             console.error("Error fetching products:", error.response ? error.response.data : error.message);
             throw error;
         }
-    }
+    },
+
+    // getUserList : async ()=>{
+
+    //     try {
+
+       
+        
+    //         const{userToken} = useStore.getState()
+            
+
+    //         console.log("category", userToken)
+    //         const response = await axios.get("https://localhost:7252/api/Chat/UserList",{
+
+    //            headers:{
+    //             "Authorization": `Bearer ${userToken.token}`
+    //            }
+    //           })
+             
+    //           return response.data
+    //     } catch (error) {
+    //         console.error("Error fetching UserList:", error.response ? error.response.data : error.message);
+    //         throw error;
+    //     }
+    // }
 }));
 
 export default useStore;
